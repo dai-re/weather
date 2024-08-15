@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="shortcut icon" href="/113.webp" type="image/x-icon" />
+    <title>Weather-app</title>
+  </head>
+  <body>
+    <main>
+      <span
+        id="temprature"
+        class="box temprature"
+        style="font-size: 50px; font-weight: bold"
+      >
+        N/A<b>&#8451;</b>
+      </span>
+      <span id="image" class="box">Load..</span>
+      <span id="location" class="box" onclick="loca()">Load..</span>
+      <span id="time" class="box">Load..</span>
+      <script src="app.js"></script>
+    </main>
+    <div class="win-loca" id="win-loca">
+      <ul id="win-loca-loader"></ul>
+    </div>
+  </body>
+</html>
