@@ -18,7 +18,7 @@ if (localCity) {
   fetchData(city);
 }
 function fetchData(city) {
-  const apiURL = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}`;
+  const apiURL = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}`;
   fetch(apiURL)
     .then((response) => response.json())
     .then((data) => {
